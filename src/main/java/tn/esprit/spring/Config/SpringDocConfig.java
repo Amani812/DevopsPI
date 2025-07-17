@@ -15,7 +15,6 @@ public class SpringDocConfig {
         return new OpenAPI()
                 .info(infoAPI());
     }
-
     public Info infoAPI() {
         return new Info().title("Gestion d'un foyer")
                 .description("TP étude de cas 2023-2024")

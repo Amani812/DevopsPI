@@ -8,7 +8,6 @@ import tn.esprit.spring.Services.Foyer.IFoyerService;
 import tn.esprit.spring.Services.Universite.IUniversiteService;
 
 import java.util.List;
-
 @RestController
 @RequestMapping("universite")
 @AllArgsConstructor
@@ -45,6 +44,5 @@ public class UniversiteRestController {
     {
         return service.ajouterUniversiteEtSonFoyer(u);
     }
-
 
 }

@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class BlocServiceTest {
 
     @BeforeAll
-    void bedore() {
+    public static void bedore() {
 
     }
 
